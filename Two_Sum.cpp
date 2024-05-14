@@ -1,6 +1,8 @@
 #include<iostream>
 #include<vector>
 #include<string>
+#include<stack>
+#include<queue>
 
 using namespace std;
 
@@ -20,6 +22,10 @@ class Solution1 {
             return twoSum_result;
         }
 };
+//add
+int add(int a,int b){
+	return a+b;
+}
 
 int main(){
     vector<int> nums = {2,7,11,15};
